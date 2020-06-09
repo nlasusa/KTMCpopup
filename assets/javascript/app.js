@@ -23,5 +23,5 @@ document.getElementById("signup-btn").addEventListener('click', function(){
 
 // ON CLICK EVENTS 
 $("#back").on('click', function(){
-  window.location = "https://ktmc.com/";    
+  window.location = "https://nlasusa.github.io/KTMCpopup/";    
 });
