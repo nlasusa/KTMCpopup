@@ -1,3 +1,8 @@
+// ON CLICK EVENTS 
+$("#signup").on('click', function(){
+  window.location = "https://nlasusa.github.io/KTMCMessage/";    
+});
+
 function displayAd(){
   document.getElementById("special-offer").style.display = "block";
 }
@@ -21,7 +26,5 @@ document.getElementById("signup-btn").addEventListener('click', function(){
   document.getElementById("form-container").style.display = "flex";
 }, false)
 
-// ON CLICK EVENTS 
-$("#back").on('click', function(){
-  window.location = "https://nlasusa.github.io/KTMCpopup/";    
-});
+
+
